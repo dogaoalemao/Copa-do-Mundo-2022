@@ -1,7 +1,13 @@
-let paragrafo = document.querySelector('vaiSerCampeao');
+// 1
+let titulo = document.getElementsByTagName('h1');
 
-console.log(paragrafo);
+console.log(titulo[0]);
 
+let list = document.getElementsByTagName('li');
+
+console.log(list);
+
+// 2
 
 // 3 
 let apagaVaiSerCampeao = document.querySelector('#vaiSerCampeao')
