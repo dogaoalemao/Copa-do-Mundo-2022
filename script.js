@@ -1,18 +1,28 @@
 // 1
-let titulo = document.getElementsByTagName('h1');
 
-console.log(titulo[0]);
+let listGrupoG = document.querySelector('.grupoG');
 
-let list = document.getElementsByTagName('li');
-
-console.log(list);
+console.log(listGrupoG);
 
 // 2
 
+let trocaresult = document.querySelector('#vaiSerCampeao');
+
+function result (){
+    trocaresult.textContent = "A seleção brasileira perder uma disputa por pênaltis na Copa do Mundo 2022";
+}
+
 // 3 
+
 let apagaVaiSerCampeao = document.querySelector('#vaiSerCampeao')
 
-apagaVaiSerCampeao.remove();
+//apagaVaiSerCampeao.remove();
+
+// 4
+
+function resultado(){
+    alert("A Argentina é campeã da Copa do Mundo de 2022!")
+}
 
 
 // atividade

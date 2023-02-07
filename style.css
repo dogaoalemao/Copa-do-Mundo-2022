@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(121, 3, 255);
+}
+
+ul {
+    color: #fff;
+}
+
+#vaiSerCampeao {
+    color: #fff;
+    font-size: 15px;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: #3b0047;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(71, 0, 143);
+}
+
+body {
+    background: linear-gradient(to right, #49000c, #000008);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
