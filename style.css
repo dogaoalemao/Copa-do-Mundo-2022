@@ -4,6 +4,14 @@ h1, p {
 
 ul {
     color: #fff;
+    float: left;
+    margin: 10px;
+    width: 120px;
+    margin-left: 120px;
+}
+
+#timesG {
+    float: none;
 }
 
 #vaiSerCampeao {
@@ -44,4 +52,5 @@ ul {
 body {
     background: linear-gradient(to right, #000008, #49000c);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
