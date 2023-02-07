@@ -9,14 +9,14 @@ console.log(listGrupoG);
 let trocaresult = document.querySelector('#vaiSerCampeao');
 
 function result (){
-    trocaresult.textContent = "A seleção brasileira perder uma disputa por pênaltis na Copa do Mundo 2022";
+    trocaresult.textContent = "Não deu certo! A seleção brasileira perdeu uma disputa por pênaltis na Copa do Mundo 2022";
 }
 
 // 3 
 
-let apagaVaiSerCampeao = document.querySelector('#vaiSerCampeao')
+let apagaVaiSerCampeao = document.querySelector('#proximo')
 
-//apagaVaiSerCampeao.remove();
+apagaVaiSerCampeao.remove();
 
 // 4
 

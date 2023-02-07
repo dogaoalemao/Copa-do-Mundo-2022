@@ -1,4 +1,4 @@
-h1 {
+h1, p {
     color: rgb(121, 3, 255);
 }
 
@@ -11,7 +11,22 @@ ul {
     font-size: 15px;
 }
 
-.button {
+.button1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 0, 143);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button1:hover {
+    background-color: rgb(0, 83, 14);
+    color: rgb(255, 251, 0);
+}
+
+.button2 {
     color: rgb(255, 255, 255);
     background-color: #3b0047;
     border: 2px solid rgb(255, 255, 255);
@@ -21,12 +36,12 @@ ul {
     font-size: 20px;
 }
 
-.button:hover {
+.button2:hover {
     background-color: rgb(253, 253, 253);
     color: rgb(71, 0, 143);
 }
 
 body {
-    background: linear-gradient(to right, #49000c, #000008);
+    background: linear-gradient(to right, #000008, #49000c);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
